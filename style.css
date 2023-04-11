@@ -1,0 +1,827 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* clinic Button */
+.clinic-button {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.clinic-button .btn-clinic {
+    padding: 25px 60px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    color: #222d44;
+}
+
+.clinic-button .btn-clinic:hover {
+    opacity: 95%;
+}
+
+.clinic-button p {
+    font-size: 30px !important;
+    font-weight: 500 !important;
+}
+
+
+/* clinic Hero Section */
+/* ****************************************************************** */
+.clinic-hero-bg {
+    background-image: url(./Assests/heroImg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.clinic-navbar {
+    background-color: transparent;
+}
+
+.clinic-navbar .nav-box {
+    padding: 1rem 3rem 3rem;
+}
+
+.clinic-navbar .nav-logo img {
+    /* background-color: #fff; */
+    border-radius: 50%;
+    width: 180px;
+}
+
+.clinic-navbar .nav-box .call-box {
+    position: relative;
+}
+
+.clinic-navbar .nav-box .call-box p {
+    margin: 0;
+    border-bottom: 1px solid #bdbdbd;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.clinic-navbar .nav-box .call-box a {
+    text-decoration: none;
+    color: #65CFBB;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.clinic-navbar .nav-box .call-box .call-icon {
+    position: absolute;
+    top: 24px;
+    left: -45px;
+}
+
+.clinic-navbar .nav-box .call-box .call-icon img {
+    width: 32px;
+}
+
+/* ****************************************************************** */
+
+.clinic {
+    padding: 2rem 0rem 3rem;
+}
+
+.clinic-hero {
+    text-align: center;
+    color: #fff;
+}
+
+.clinic-hero p {
+    color: #65CFBB;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.clinic-hero h1 {
+    font-style: italic;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 75px;
+}
+
+.clinic-hero h4 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 45px;
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+
+.clinic-button button {
+    background: #65CFBB;
+}
+
+
+/* ***************************** Achievement ***************************** */
+
+/* achievement Section */
+/* ****************************************************************** */
+.achievement {
+    filter: drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.25));
+}
+
+.achievement .achievement-box {
+    background: radial-gradient(#45657B, #222d44) repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem 0rem;
+    border-right: 1px solid #d3d3d3;
+}
+
+.achievement .achievement-box p {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #fff;
+    margin: 0;
+}
+
+/* ****************************************************************** */
+
+/* Tootache Section */
+/* ****************************************************************** */
+
+.tootache-container {
+    background: #fbfbfb;
+}
+
+.tootache {
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.tootache-img .toot-img-2 {
+    height: 420px;
+    width: 650px;
+} 
+
+/* .tootache-img {
+    position: relative;
+}
+
+
+.tootache-img .toot-img {
+    height: 262px;
+    width: 218px;
+    position: absolute;
+}
+
+ .tootache-img .toot-img-1 {
+    top: 120px;
+    left: 180px;
+}
+.tootache-img .toot-img-3 {
+    top: 20px;
+    right: 200px;
+} */
+
+.tootache h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-top: 55px;
+    line-height: 63px;
+    color: #448C7F;
+
+}
+
+.tootache p {
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.tootache p b {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+/* ******************************************************************* */
+.appointment {
+    padding: 5rem 0rem;
+}
+
+.appointment h2 {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #222D44;
+    text-transform: capitalize;
+}
+
+.appointment p {
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+.appointment h5 {
+    margin: 3rem 0rem 2rem;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #222D44;
+}
+
+.appointment .clinic-button .btn-clinic {
+    padding: 25px 80px;
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+/* Discover Section */
+/* ****************************************************************** */
+
+.discover-container {
+    background: #fbfbfb;
+}
+
+.discover {
+    padding: 4rem 0rem;
+    text-align: center;
+}
+
+.discover img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.discover h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 55px;
+    line-height: 63px;
+    color: #448C7F;
+
+}
+
+.discover p {
+    font-size: 27px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.discover p b {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* ****************************************************************** */
+
+
+
+/* ******************************************************************* */
+
+/* Client review */
+/* ******************************************************************* */
+
+.client-container {
+    background: #F9F9F9;
+
+}
+
+.client-review {
+    padding: 7.5rem 0rem;
+
+}
+
+.client-review h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 2.5rem;
+    line-height: 50px;
+    color: #448C7F;
+    ;
+}
+
+.client-review .client-slide {
+    padding: 2rem 0rem 4rem;
+}
+
+.client-review .client-slide .client-image {
+    border: 3px solid #65CFBB;
+    border-radius: 7px;
+    min-height: 250px;
+    display: flex;
+}
+
+.client-review .client-slide .owl-carousel .owl-dots.disabled {
+    display: none;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-prev,
+.client-review .client-slide .owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: #fff;
+    border: none;
+    padding: 2px 10px 5px 10px !important;
+    font: inherit;
+    position: absolute;
+    top: 38%;
+    font-size: 40px;
+    line-height: 30px;
+    background-color: #222D44;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-prev {
+    left: -55px;
+}
+
+.client-review .client-slide .owl-carousel .owl-nav button.owl-next {
+    right: -55px;
+}
+
+.client-review .btn-clinic {
+    color: white;
+}
+
+/* ******************************************************************* */
+
+/* 100% Guarantee review */
+/* ******************************************************************* */
+.guarante-bg {
+    background-image: linear-gradient(rgb(255 255 255 / 65%), rgb(255 255 255 / 65%)), url(../../assets/images/100-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-bottom: 1px solid #000000a1;
+    padding: 5rem 0rem 6rem;
+}
+
+.guarantee {
+    text-align: center;
+}
+
+.guarantee .guarantee-image {
+    padding: 2rem 0rem;
+}
+
+.guarantee .guarantee-image img {
+    width: 380px;
+}
+
+.guarantee h6 {
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 2rem;
+    color: #000;
+}
+
+
+/* Happy Customer */
+/* ******************************************************** */
+.happy-customer-bg {
+    background-image: linear-gradient(rgb(0 0 0 / 35%), rgb(0 0 0 / 35%)), url(../../assets/images/blue-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.happy-customer {
+    padding: 4rem 0rem;
+    color: #fff;
+}
+
+.happy-customer .customer-slide .owl-theme .owl-dots .owl-dot {
+    display: none;
+}
+
+.happy-customer .customer-slide .owl-carousel .owl-nav.disabled {
+    display: block;
+}
+
+.happy-customer .customer-slide .owl-carousel .owl-nav button.owl-prev,
+.happy-customer .customer-slide .owl-carousel .owl-nav button.owl-next {
+    background: 0 0;
+    color: #222D44;
+    border: none;
+    padding: 2px 10px 5px 10px !important;
+    font: inherit;
+    position: absolute;
+    top: 47%;
+    font-size: 40px;
+    line-height: 30px;
+    background-color: #fff;
+}
+
+.happy-customer .customer-slide .owl-carousel .owl-nav button.owl-prev {
+    left: 25px;
+}
+
+.happy-customer .customer-slide .owl-carousel .owl-nav button.owl-next {
+    right: 25px;
+}
+
+.happy-customer .customer-slide .customer-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.happy-customer h2 {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 45px;
+}
+
+.happy-customer .customer-slide .customer-text img {
+    width: 51px;
+    padding: 2rem 0rem;
+}
+
+.happy-customer .customer-slide .customer-text p {
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.happy-customer .customer-slide .customer-text span {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+/* ******************************************************** */
+
+
+
+/* ***************************** About section ******************************* */
+
+
+.about {
+    background: #0C362EE8;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-us {
+    padding: 5rem 0rem;
+    text-align: left;
+}
+
+.about-us h2 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 52px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* ************************************************************************** */
+
+
+
+
+/* *********************************** Media Query (Tablet) ************************* */
+
+@media only screen and (max-width: 768px) {
+    .clinic-navbar .nav-box {
+        padding: 1rem 3rem;
+    }
+
+    .clinic-hero h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+
+    .clinic-hero h4 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .achievement .achievement-box {
+        border-bottom: 1px solid #d3d3d3;
+    }
+
+    .discover h2 {
+        font-size: 40px;
+        margin-bottom: 50px;
+        line-height: 55px;
+    }
+
+    .discover p {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .discover p b {
+        font-size: 25px;
+    }
+
+    /* .tootache h2 {
+        font-size: 42px;
+        font-weight: 600;
+        margin-top: 55px;
+        line-height: 63px;
+        color: #448C7F;
+    
+    }
+    
+    .tootache p {
+        font-size: 27px;
+        font-weight: 400;
+        text-transform: capitalize;
+        margin-bottom: 30px;
+    } */
+
+    .tootache h2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+        line-height: 55px;
+    }
+
+    .tootache p {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+    
+    .tootache-img .toot-img-2 {
+        height: 320px;
+        width: 500px;
+    }
+    
+    /* .tootache-img .toot-img {
+        height: 130px;
+        width: 100px;
+        position: absolute;
+    }
+    
+    .tootache-img .toot-img-1 {
+        top: 120px;
+        left: 20px;
+    }
+    .tootache-img .toot-img-3 {
+        top: 10px;
+        right: 30px;
+    } */
+
+
+    .about .about-slide .owl-theme .owl-nav,
+    .happy-customer .customer-slide .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .about .about-slide .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .client-review .client-slide .owl-theme .owl-nav,
+    .happy-customer .customer-slide .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .client-review .client-slide .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .guarantee h6 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .tootache-img .toot-img-2 {
+        height: 280px;
+        width: 400px;
+    }
+}
+
+/* Media Query (Mobile) */
+@media only screen and (max-width: 450px) {
+    
+    
+    .clinic-button .btn-clinic {
+        padding: 18px 20px;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    .clinic-button p {
+        font-size: 20px !important;
+    }
+
+    .clinic-hero-bg {
+        padding-top: 15px;
+    }
+
+    .clinic-navbar .nav-logo img {
+        width: 65px;
+    }
+
+    .clinic-navbar .nav-box .call-box p {
+        font-size: 12px;
+    }
+
+    .clinic-navbar .nav-box .call-box a {
+        font-size: 18px;
+    }
+
+    .clinic-navbar .nav-box .call-box .call-icon {
+        display: none;
+    }
+
+    .clinic-navbar .nav-box {
+        padding: 0.5rem 1rem;
+    }
+
+    .clinic-hero p {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
+    .clinic-hero h1 {
+        font-size: 24px;
+        line-height: 38px;
+        font-weight: 600;
+    }
+
+    .clinic-hero h4 {
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    .appointment .clinic-button .btn-clinic {
+        padding: 10px 30px;
+        font-size: 22px;
+
+    }
+
+    .discover h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+
+    .discover img {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+
+    .discover p b {
+        font-size: 20px;
+    }
+
+    .discover p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .tootache h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+        line-height: 40px;
+    }
+
+    /* .tootache img {
+        width: 250px;
+        height: 270px;
+        margin-bottom: 10px;
+    } */
+
+    .tootache p b {
+        font-size: 20px;
+    }
+
+    .tootache p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .tootache-img .toot-img-2 {
+        height: 180px;
+        width: 300px;
+    }
+
+  /*  
+    .tootache-img .toot-img {
+        height: 70px;
+        width: 50px;
+        position: absolute;
+    }
+    
+     .tootache-img .toot-img-1 {
+        top: 100px;
+        left: 50px;
+    }
+    .tootache-img .toot-img-3 {
+        top: 9px;
+        right: 50px;
+    } */
+
+    .about-us h2 {
+        font-size: 28px;
+        line-height: 40px;
+        /* margin-bottom: 30px; */
+    }
+
+    .about-us p {
+        margin-top: 30px;
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .client-review h2 {
+        font-size: 28px;
+        margin-bottom: 0.5rem;
+        line-height: 40px;
+    }
+
+    .client-review .client-slide {
+        padding: 1rem 0rem 1rem;
+    }
+
+    .client-review {
+        padding: 4.5rem 0rem 1rem;
+    }
+
+    .guarantee .guarantee-image img {
+        width: 250px;
+    }
+
+    .guarantee .guarantee-image {
+        padding: 1rem 0rem;
+    }
+
+    .guarante-bg {
+        padding: 2rem 0rem 3rem;
+    }
+
+    .guarantee h6 {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 1rem;
+    }
+
+    .happy-customer h2 {
+        font-size: 28px;
+        margin-bottom: 0rem;
+        line-height: 38px;
+    }
+
+    .happy-customer .customer-slide .customer-text p {
+        font-size: 15px;
+    }
+
+    .happy-customer .customer-slide .customer-text span {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+}
+
+@media screen and (max-width:323px) {
+    .tootache-img .toot-img-2 {
+        height: 230px;
+        width: 250px;
+    }
+}
