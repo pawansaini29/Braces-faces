@@ -561,7 +561,8 @@ body {
     }
 
     .achievement .achievement-box {
-        border-bottom: 1px solid #d3d3d3;
+        border-bottom: 2px solid #448C7F;
+;
     }
 
     .discover h2 {
