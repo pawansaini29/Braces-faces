@@ -154,7 +154,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 2.5rem 0rem;
-    border-right: 3px solid #65CFBB;
+    border-right: 3px solid #448C7F;
 
 }
 
@@ -164,7 +164,9 @@ body {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
-    color: #65CFBB;
+/*     color: #65CFBB; */
+    color: #448C7F;
+
     margin: 0;
 }
 
